@@ -1,0 +1,87 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# ja:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+ja:
+  home:
+    menu1:
+      title: "設定"
+      side1: "サンプル"
+      side2: "ユーザー管理"
+      side3: "グループ管理"
+      side4: "除外ドメイン登録"
+      side5: "見出し自動分類辞書管理"
+      side6: "チェック項目（標準NGワード）登録"
+      side7: "執筆方針テンプレート管理"
+      side8: "見出し自動分類辞書管理"
+    menu2:
+      title: "案件情報管理"
+    menu3:
+      title: "執筆キーワード管理"
+  sample:
+    title: "サンプル"
+    id: "番号"
+    description: "説明"
+    action: "操作"
+
+  user:
+    id: "番号"
+    user_name: "初期名称"
+    user_name_last: "最後名称"
+    action: "操作"
+
+  header_classification_dict:
+    display_order: "表示順"
+    header_classification: "見出し分類"
+    keyword: "キーワード"
+    action: "操作"
+
+  message:
+    M001: "ユーザー名を入力してください。"
+    M002: "ユーザー名が既にあります。"
+    M003: "ユーザー権限を選択してください。"
+    M004: "登録しました。"
+    M005: "更新しました。"
+    M006: "削除してもよろしいですか。"
+    M007: "削除しました。"
+    M008: "グループ名を入力してください。"
+    M009: "グループ名が既にあります。"
+    M010: "グループ概要を入力してください。"
+    M011: "除外したいドメインを入力してください。"
+    M012: "標準NGワードを入力してください。"
+    M013: "表示順を入力してください。"
+    M014: "表示順が既にあります。"
+    M015: "見出し分類を入力してください。"
+    M016: "見出し分類が既にあります。"
+    M017: "キーワードを入力してください。"
+    M056: "データ登録に失敗しました。"
+    M058: "データ更新に失敗しました。"
+    M059: "データ削除に失敗しました。"
+    M060: "データ取得に失敗しました。"
